@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rashmitha Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/ionicons.min.css">
+  <link rel="stylesheet" href="css/flaticon.css">
+  <link rel="stylesheet" href="css/icomoon.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    .about-mf .box-shadow-full {
+      padding-top: 9rem;
+      padding-bottom: 5rem;
+    }
+    .about-mf .about-img {
+      margin-bottom: 2rem;
+    }
+    .about-mf .about-img img {
+      margin-left: 80px;
+    }
+    .skill-mf .progress {
+      margin: .5rem 0 1.2rem 0;
+      border-radius: 0;
+      height: .7rem;
+    }
+    .skill-mf .progress .progress-bar {
+      height: .7rem;
+      background-color: #f3f4f6;
+    }
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+    @keyframes blink-caret {
+      from, to { border-color: transparent; }
+      50% { border-color: white; }
+    }
+    /* project image zoom effect */
+    .zoom-effect {
+      overflow: hidden;
+      transition: transform 0.3s ease-out;
+    }
+    .zoom-effect:hover {
+      transform: scale(1.1);
+    }
+    /* Background image size adjustment */
+    .slider-item .img {
+      background-size: 50%; /* Adjust the percentage as needed */
+      background-position: center; /* Center the background image */
+    }
+    .carousel-indicators {
+      display: none;
+    }
+    /* Added new styles for aligning about image and text */
+    .about-section .row {
+      align-items: center;
+    }
+    .about-section .about-img {
+      margin-right: 20px; /* Adjust as needed */
+    }
+    .centered-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+	h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
+    line-height: -7.5;
+    color: white;
+    font-weight: 400;
+}
+.img-fluid {
+    max-width: 100%;
+    height: 500px;
+}
+.big-4 {
+    font-size: 42px;
+    margin: 284px auto;
+    transform: scaleX(1.2);
+	margin-top: 250px;
+}
+@media (min-width: 768px) {
+    .underline {
+        width: 100%;
+        height: 3px;
+        opacity: 186%;
+		margin-top: -90px;
+    }
+}
+
+
+  </style>
+</head>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Rashmitha</a>
+      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="oi oi-menu"></span> Menu
+      </button>
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav nav ml-auto">
+          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home-section" class="hero">
+    <div class="home-slider owl-carousel">
+		
+      <div class="slider-item ">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+            <div class="one-third js-fullheight order-md-last img" style="background-image: url('images/back.png');">
+              <div class="overlay"></div>
+            </div>
+            <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+              <div class="text">
+                <span class="subheading">Hello!</span>
+                <h1 class="mb-4 mt-3">I'm <span>Rashmitha</span></h1>
+                <br>
+                <br>
+                <h2>A full-stack developer</h2>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+			<section class="ftco-about img ftco-section ftco-no-pb about-section" id="about-section">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-lg-5 d-flex">
+							<div class="img-about img d-flex align-items-stretch">
+								<div class="overlay">
+									<div class="about-img">
+										<img src="images/aboutnew.png" class="img-fluid rounded b-shadow-a" alt="about-img">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-7">
+							<div class="about-me pt-4 pt-md-0">
+								<div class="title-box-2">
+									<h3 class="title-left">About Me</h3>
+								</div>
+								<p class="lead">Hello, my name is Rashmitha. I am a full-stack developer with a passion for building web applications. I have experience in various technologies and am always eager to learn new things.</p>
+								<p class="lead">My journey in the world of full stack development started a 1 years ago, and since then, I have been dedicated to honing my skills and improving my Codig knowledge. I enjoy working on challenging projects that push me to grow and expand my knowledge.</p>
+								<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+									<li class="ftco-animate"><a href="https://www.instagram.com/rashmi_chandan1._?igsh=MWltaW1pZ2I4Nnp2OQ=="><span class="icon-instagram"></span></a></li>
+									<li class="ftco-animate"><a href="https://www.linkedin.com/in/rashmitha-l-a713a6224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><span class="icon-linkedin"></span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+          <section class="ftco-section ftco-no-pb" id="resume-section">
+			<div class="container">
+				<div class="row justify-content-center pb-5">
+			  <div class="col-md-10 heading-section text-center ftco-animate">
+				  <h1 class="big big-2">Resume</h1>
+				<h2 class="mb-4">Resume</h2>
+				<p>Full stack developer with 1.4 year of experience in both front end and back end, collaborated on testing, designing databases, optimizing performance, and upgrading legacy code to modern standards for high-quality software delivery.</p>
+			  </div>
+			</div>
+	
+			<div class="row">
+				<h1 class="big-4">Experience</h1>
+				<div class="underline"></div>
+			</div>
+			<br>
+			
+			<div class="row centered-content">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2024-Present</span>
+						<h2>Full Stack Developer</h2>
+						<span class="position">Miraegisul</span>
+						<p class="mt-4">Miraegisul, Korean-based startup company located in Bangalore.</p>
+						<ul>
+							<li>Worked on front-end and back-end development, testing projects, and maintaining positive team relationships.</li>
+							<li>Participated in software testing, identifying and resolving bugs to ensure high-quality software delivery.</li>
+							<li>Designed and optimized databases for web applications, enhancing performance and scalability.</li>
+							<li>Collaborated with team members to discuss and resolve issues, fostering a collaborative work environment.</li>
+							<li>Created workflow and requirement documents, designed intuitive user interfaces, and upgraded legacy code bases to modern standards.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+	
+					
+				</div>
+	
+			<br>
+			<br>
+	
+			<div class="row">
+				<h1 class="big-4">Education</h1>
+				<div class="underline"></div>
+			</div>
+			<br>
+			
+				<div class="row">
+					<div class="col-md-6">
+						<div class="resume-wrap ftco-animate">
+							<span class="date">2018-2022</span>
+							<h2>Bachelor of Engineering</h2>
+							<span class="position">Visvesvaraya Technological University</span>
+							<p class="mt-4">Grade: First class distinction.</p>
+						</div>
+					</div>
+	
+					<div class="col-md-6">
+						<div class="resume-wrap ftco-animate">
+							<span class="date">2016-2018</span>
+							<h2>Higher Secondary School</h2>
+							<span class="position">Pre university colleage navunda</span>
+							<p class="mt-4">Grade: First class distinction.</p>
+						</div>
+					</div>
+				</div>
+	
+				<div class="row justify-content-center mt-5">
+					<div class="col-md-6 text-center ftco-animate">
+						<a href="C:\Users\mirae\OneDrive\Desktop\Rashmitha_Resume_pdf.pdf" class="btn btn-primary py-4 px-5" download>Download CV</a>
+
+					</div>
+				</div>
+			</div>
+		</section>
+	
+	   
+	
+		
+	
+	
+	
+		<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+		  <div class="container">
+			 
+			</div>
+	
+			<div class="row d-flex contact-info mb-5">
+			  <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+				  <div class="align-self-stretch box p-4 text-center">
+					  <div class="icon d-flex align-items-center justify-content-center">
+						  <span class="icon-map-signs"></span>
+					  </div>
+					  <h3 class="mb-4">Address</h3>
+					<p>Bengaluru, India</p>
+				  </div>
+			  </div>
+			  <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+				  <div class="align-self-stretch box p-4 text-center">
+					  <div class="icon d-flex align-items-center justify-content-center">
+						  <span class="icon-phone2"></span>
+					  </div>
+					  <h3 class="mb-4">Contact Number</h3>
+					<p><a href="tel://0101010101">+91-8105239310</a></p>
+				  </div>
+			  </div>
+			  <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+				  <div class="align-self-stretch box p-4 text-center">
+					  <div class="icon d-flex align-items-center justify-content-center">
+						  <span class="icon-paper-plane"></span>
+					  </div>
+					  <h3 class="mb-4">Email Address</h3>
+					<p><a href="mailto:info@yoursite.com">rashm6746@gmail.com</a></p>
+				  </div>
+			  </div>
+			  <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+				  <div class="align-self-stretch box p-4 text-center">
+					  <div class="icon d-flex align-items-center justify-content-center">
+						  <span class="icon-globe"></span>
+					  </div>
+					  
+					<p><a href="C:\Users\mirae\OneDrive\Desktop\Rashmitha_Resume_pdf.pdf" download>Download Resume</a></p>
+
+				  </div>
+			  </div>
+	
+			 
+	   </div>
+	 </section>
+	
+	
+	 
+		
+		<footer class="ftco-footer ftco-section">
+			<div class="container">
+			  <div class="row">
+				<div class="col-md-12 text-center">
+	  
+				
+				</div>
+			  </div>
+			</div>
+		  </footer>
+	  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+	  <script src="js/jquery.min.js"></script>
+	  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+	  <script src="js/popper.min.js"></script>
+	  <script src="js/bootstrap.min.js"></script>
+	  <script src="js/jquery.easing.1.3.js"></script>
+	  <script src="js/jquery.waypoints.min.js"></script>
+	  <script src="js/jquery.stellar.min.js"></script>
+	  <script src="js/owl.carousel.min.js"></script>
+	  <script src="js/jquery.magnific-popup.min.js"></script>
+	  <script src="js/aos.js"></script>
+	  <script src="js/jquery.animateNumber.min.js"></script>
+	  <script src="js/scrollax.min.js"></script>
+	  <script src="js/main.js"></script>
+	  </body>
+	</html>
+  </section>
+</body>
+</html>
